@@ -1,0 +1,24 @@
+{
+    "name": "topcms/installer",
+    "type": "composer-plugin",
+    "require": {
+        "composer-plugin-api": "^1.0"
+    },
+    "require-dev": {
+        "composer/composer": "1.0.*@dev"
+    },
+    "authors": [
+        {
+            "name": "Joker.liu",
+            "email": "joker.liu@admincms.top"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "topcms\\composer\\": "src"
+        }
+    },
+    "extra": {
+        "class": "topcms\\composer\\Plugin"
+    }
+}
